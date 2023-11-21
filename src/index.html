@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">mrFlyest</div>
+    </div>
+    <img id="banner" src="Banner.jpg" alt="Banner" height="300">
+
+    <h1>About Mishael</h1>
+    <div class="about">
+        <div class="description">
+            <p style="margin: 0;">At Mishael, we're on a mission to build the world's most highly
+                reputed technical universities, we are building completely online.
+                We offer several beginner friendly courses that are taken by 300,000+
+                registered users.</p>
+            <p>We also offer 2 industry-focussed bootcamps:
+            <ol>
+                <li>
+                    <a href="www.jovian.com">
+                        Mishael Fullstack Developer bootcamp
+                    </a>
+                </li>
+                <li>
+                    <a href="www.jovian.com">
+                        Mishael Data Science bootcamp
+                    </a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div class="team-image">
+            <img class="t-image" src="team.jpg" alt="team">
+        </div>
+    </div>
+
+    <h2>Job Opportunities</h2>
+
+    <div class="jobs">
+       <table id="job-roles">
+            <tr class="job-infos">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted on</th>
+            </tr>
+            <tr class="job-infos">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr class="job-infos">
+                <td>Frontend Developer</td>
+                <td>Lagos</td>
+                <td>Nigeria</td>
+                <td>$80,000</td>
+                <td>Feb 13, 2022</td>
+            </tr>
+            <tr class="job-infos">
+                <td>Backend Developer</td>
+                <td>Abuja</td>
+                <td>Nigeria</td>
+                <td>$90,000</td>
+                <td>August 21, 2022</td>
+            </tr>
+            <tr class="job-infos">
+                <td>Fullstack Developer</td>
+                <td>Lagos</td>
+                <td>Nigeria</td>
+                <td>$130,000</td>
+                <td>Jan 19, 2023</td>
+            </tr>
+            <tr class="job-infos">
+                <td>Data Scientist</td>
+                <td colspan="2">Remote</td>
+                <td>$65,000</td>
+                <td>Jul 14, 2023</td>
+            </tr>
+            <tr class="job-infos">
+                <td>ML Engineer</td>
+                <td>Jos</td>
+                <td>Nigeria</td>
+                <td>$78,000</td>
+                <td>Apr 27, 2022</td>
+            </tr>
+            <tr class="job-infos">
+                <td>UX/UI Developer</td>
+                <td>Kaduna</td>
+                <td>Nigeria</td>
+                <td>$60,000</td>
+                <td>Dec 14, 2022</td>
+            </tr>
+            <tr class="job-infos">
+                <td>Graphics Designer</td>
+                <td colspan="2">Remote</td>
+                <td>$40,000</td>
+                <td>Sept 18, 2022</td>
+            </tr>
+       </table>
+    </div>
+    <div id="application">
+        <h2>Submit Application</h2>
+        <form id="application-form" 
+            action="https://formbold.com/s/oeQnb" 
+            method="POST"
+            enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="Full Name" placeholder="Mishael Philip" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="Email Address" required placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="Phone Number" required placeholder="+234906816366">
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="Date of Birth" required>
+            </div>
+            <div class="form-group">
+                <label for="position">Position Applied for:</label><br>
+                <select name="Position Applied" id="position">
+                    <option value="">Select Position</option>
+                    <option value="frontend developer">Frontend Developer</option>
+                    <option value="backend developer">Backend Developer</option>
+                    <option value="fullstack developer">Fullstack Developer</option>
+                    <option value="ml engineer">ML Engineer</option>
+                    <option value="data scientist">Data Scientist</option>
+                    <option value="graphics designer">Graphics Designer</option>
+                </select>
+                <div class="form-group">
+                    <label for="dob">Upload CV:</label><br>
+                    <input type="file" id="resume" name="Resume" accept=".pdf, .doc, .docx">
+                </div>
+                <div class="form-group">
+                    <label for="dob">Cover Letter</label><br>
+                    <textarea name="Cover Letter" id="coverletter" rows="10" required>Explain what makes you suitable for the job....
+                    </textarea>
+                </div>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+            </div>
+            <div class="form-group1">
+                <label for="terms">
+                    <input type="checkbox" name="Terms" id="terms">
+                    I agree to the terms and condition
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit Application">
+            </div>
+        </form>
+    </div>
+    
+    <div id="footer">
+        <ul id="footer-link">
+            <li>
+                <a href="www.jovian.com/learn" target="_blank">Courses</a>
+            </li>
+            <li>
+                <a href="www.jovian.com/learn" target="_blank">Programs</a>
+            </li>
+            <li>
+                <a href="https://youtube.com/@jovianhq" target="_blank">YouTube</a>
+            </li>
+        </ul>
+        <span id="copyright">© 2023, Mishael</span>
+    </div>
+</body>
+</html>
