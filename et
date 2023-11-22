@@ -1,0 +1,22 @@
+[33mcommit 2f5d74eaaca8e630125d60d4ff9ccee54db5b261[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: MishaelPhilip <112097828+MishaelPhilip@users.noreply.github.com>
+Date:   Tue Nov 21 15:16:35 2023 +0000
+
+    Adding the HTML and CSS files
+
+ src/Banner.jpg | Bin [31m0[m -> [32m185033[m bytes
+ src/index.html | 186 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ src/style.css  | 157 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ src/team.jpg   | Bin [31m0[m -> [32m570072[m bytes
+ 4 files changed, 343 insertions(+)
+
+[33mcommit 648d88c2fce60f61791b77400bde11ed0bb8de9b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: MishaelPhilip <112097828+MishaelPhilip@users.noreply.github.com>
+Date:   Tue Nov 21 06:26:22 2023 -0800
+
+    Initial commit
+
+ .gitignore | 130 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ LICENSE    |  21 [32m++++++++++++++++++++[m
+ README.md  |   2 [32m++[m
+ 3 files changed, 153 insertions(+)
