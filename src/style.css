@@ -206,6 +206,9 @@ h2{
     .team-image{
         width: 50%;
     }
+    #application{
+        max-width: 900px;
+    }
     .jobs{
         max-width: 900px;
         margin: 0 auto;
