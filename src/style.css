@@ -1,3 +1,263 @@
+/* base styles (extra small device-mobile)
+CSS Rules */
+
+html{
+    font-size: 14px
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+    text-align: justify;
+    color: #444444;
+    font-size: 1rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+h1{font-size: 2.5rem;}
+h2{font-size: 2.0rem;}
+h3{font-size: 1.75rem;}
+h4{font-size: 1.5rem;}
+h5{font-size: 1.2rem;}
+h6{font-size: 1rem;}
+a{
+    text-decoration: none;
+    color: #2563EB;
+}
+a:hover{
+    color: #1E40AF;
+} 
+.navbar{
+    padding: 10px;
+    margin: 0;
+}
+#logo-with-text{
+    display: none;
+}
+#logo{
+    display: block;
+}
+#banner{
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 8px;
+}
+.description{
+    font-size: 1.25rem;
+}
+.t-image{
+    width: 100%;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    margin: 12px 0;
+}
+.jobs{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+#jobs-list{
+    display: block;
+}
+#job-roles{
+    display: none;
+}
+.job{
+    border: 1px solid #dddddd;
+    margin-top: 8px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.job-title{
+    font-size: 1.25rem;
+    color: #222222;
+    font-weight: 500;
+}
+.job-detail{
+    margin-top: 4px;
+    color: #555555;
+}
+#application{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 8px;
+}
+.form-group, div{
+    margin: 14px 0;
+}
+#application-form label{
+    font-weight: 500;
+}
+.form-group input, select, textarea{
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 6px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 90%;
+}
+.form-group textarea{
+    font-family: 'roboto', sans-serif;
+}
+.form-group1 input[type="checkbox"]{
+    height: 16px;
+    width: 16px;
+}
+.form-group input[type="submit"]{
+    background-color: #A5B4FC;
+    color: white;
+    width: 150px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700px;
+}
+.form-group input[type="submit"]:hover{
+    background-color: #E5E5E5;
+    color: #4F46E5;
+}
+
+#footer{
+    background-color: ghostwhite;
+    padding: 8px;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+#footer-link{
+    list-style: none;
+    padding-left: 0;
+
+}
+#footer-link li{
+   
+    margin: 8px 16px;
+}
+#copyright{
+    color: #71717A;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 576px){
+    html{
+        font-size: 16px
+    }
+    #logo-with-text{
+        display: block;
+    }
+    #logo{
+        display: none;
+    }
+    #banner{
+        height: 280px;
+    }
+    h1{
+        margin: 18px 0;
+    }
+    h2{
+        text-align: center;
+        margin: 18px 0;
+    }
+    .form-group input, select{
+        width: auto;
+    }
+    .form-group textarea{
+        width: 80%;
+    }
+    #footer-link li{
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 758px){
+    #banner{
+        height: 320px;
+    }
+    h1{
+        margin: 25px 0;
+    }
+    h2{
+        text-align: center;
+        margin: 25px 0;
+    }
+    .about{
+        max-width: 900px;
+        flex-direction: row;
+    }
+    .description{
+        width: 50%;
+        padding: 0 10px;
+    }
+    .team-image{
+        width: 50%;
+    }
+    .jobs{
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 8px;
+    }
+    #jobs-list{
+        display: none;
+    }
+    #job-roles{
+        display: table;
+        width: 100%;
+        border: 1px solid grey;
+        border-collapse: collapse;
+    }
+    #job-roles tr:nth-child(odd){
+        background-color: #EFF6FF;
+    }
+    .job-infos th{
+        border: 1px solid grey;
+        padding: 8px;
+        background-color: #EEF2FF;
+        text-align: left;
+        color: #222222;
+    }
+    .job-infos td{
+        border-right: 1px solid grey;
+        padding: 8px;
+}
+
+@media screen and (min-width: 992px){
+    html{
+        font-size: 20px
+    }
+    #banner{
+        height: 390px;
+    }
+    h1{
+        margin: 32px 0;
+    }
+}
+@media screen and (min-width: 1200px){
+    #banner{
+        height: 410px;
+    }
+}
+
+
+
+/*
+html{
+    font-size: 16px
+}
 body{
     margin: 0;
     padding: 0;
@@ -19,7 +279,7 @@ h1{
     text-align: center;
     color: #222222;
     margin: 50px 0;
-
+ 
 }
 
 #banner{
@@ -54,11 +314,7 @@ a:hover{
     color: skyblue;
     font-size: 35px;
 }
-.description{
-    width: 50%;
-    padding:0 10px;
-    line-height: 40px;
-}
+
 .team-image{
     width: 50%;
 }
@@ -155,3 +411,4 @@ h2{
     font-size: 12px;
 }
     
+*/
